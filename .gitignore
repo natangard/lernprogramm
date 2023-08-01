@@ -1,0 +1,47 @@
+*.pyc
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# vim temporary
+*.swp
+
+*.log
+
+# PyCharm
+.idea/spot-signal-emitter.iml
+*.iml
+.idea/
+.idea/misc.xml
+.idea/workspace.xml
+.idea/scopes/
+
+# virtualenv
+.env/
+.venv/
+# the file created by `pyenv local` command
+.python-version
+
+
+# tests artifacts
+.noseids
+.tox/
+.cache/
+.pytest_cache/
+
+# coverage artifacts
+.coverage
+htmlcov/
+
+# build artifacts
+*.egg-info/
+*.eggs/
+build/
+dist/
+/venv/
+
+# tmp artifacts
+/src/scalp/hist_data
+*.csv
+*.tmp
+
